@@ -1,0 +1,23 @@
+# Copyright© qetrox.com & streameroptions.com - All Rights Reserved
+
+# ---------------------------------- Streamer Options Configuration ----------------------------------
+# If the plugin should be enabled or not.
+enabled: true
+
+# Use the token generated on the website. This is used to receive events.
+token: 'token'
+
+# The UUIDS of the players that are affected by the plugin. In 9/10 cases this will be the account of the streamer(s).
+# You can find the UUID of a player on https://mcuuid.net/ or https://namemc.com/.
+# UUID's should be formatted WITH dashes. Example: 069a79f4-44e9-4726-a5be-fca90e38aaf5.
+# You can add multiple UUIDS to the list.
+streamer_uuids:
+# - 'uuid1'
+# - 'uuid2'
+# - 'uuid3'
+
+# When using the whitelist module, people can add themselves to the whitelist. This input is NOT filtered.
+# We give the option to disable announcing the whitelisted player in chat, this may help to prevent
+# people abusing this feature to spam or say bad things.
+# Announce who was whitelisted in chat (will display even when the username is fake or bad).
+announce_whitelisted_player: true

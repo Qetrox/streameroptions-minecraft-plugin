@@ -1,0 +1,7 @@
+name: StreamerOptions
+version: '${version}'
+main: com.qetrox.streameroptions.StreamerOptions
+api-version: '1.20'
+commands:
+  streamer:
+    description: SO Streamer Command
